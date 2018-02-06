@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+#display {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: dodgerblue;
+}
+
+#controls {
+    width: 30vw;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: coral;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#myImg {
+    position: absolute;
+}
+
+.allImgs {
+    position: absolute;
+}
