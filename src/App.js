@@ -24,7 +24,7 @@ class App extends Component {
         });
         
         this.socket.on("yourid", (data)=>{
-            this.setState({
+            this.setState({ 
                 myId:data,
             });
         });
